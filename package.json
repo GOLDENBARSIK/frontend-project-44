@@ -5,7 +5,8 @@
   "main": "index.js",
   "type": "module",
   "bin": {
-    "code": "bin/brain-games.js"
+    "brain-games": "bin/brain-games.js",
+    "brain-even": "bin/brain-even.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -26,9 +27,5 @@
     "eslint-plugin-react": "^7.37.4",
     "eslint-plugin-react-hooks": "^4.6.2",
     "globals": "^16.0.0"
-  },
-  "bin": {
-    "brain-games": "bin/brain-games.js",
-    "brain-even": "bin/brain-even.js"
   }
 }

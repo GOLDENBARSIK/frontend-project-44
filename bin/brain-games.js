@@ -1,3 +1,3 @@
-import greeting from '../src/cli.js';
+import call from '../src/cli.js';
 
-greeting();
+call();
