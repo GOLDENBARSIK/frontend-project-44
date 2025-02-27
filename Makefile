@@ -1,10 +1,10 @@
-Активация:
+on:
 	npm ci;
 	npm install readline-sync;
 	node src/start.js
-Игры разума:
+brain-games:
 	node bin/brain-games.js
 make lint:
 	npx eslint .
-Проверка на четность:
-	node bin/brain-even.js
+parity-check:
+	node bin/parity-check.js
