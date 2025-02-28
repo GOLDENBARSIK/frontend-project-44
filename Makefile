@@ -4,11 +4,15 @@ on:
 	node src/start.js
 brain-games:
 	node bin/brain-games.js
-make lint:
-	npx eslint .
+publish:
+	npm publish --dry-run
+lint:
+	npx eslint
 parity-check:
 	node bin/brain-even.js
 calculator:
 	node bin/brain-calc.js
+nod:
+	node bin/brain-gcd.js
 games:
 	node src/gameslist.js

@@ -1,9 +1,9 @@
 import { RandomNumber, RandomIndex } from '../Num-math.js';
 import run from '../index.js';
 
-const description = 'Поиграем в калькулятор:)\n\n\nНайди значение выражения';
+const description = 'Поиграем в калькулятор:)\n\n\nНайди значение выражения\n(если ответ не целый то округлить до 16 знаков после запятой)';
 const signs = ['+', '-', '*', '/', '%', '**'];
-const min = 0;
+const min = -50;
 const min2 = 1;
 const max = 50;
 const max2 = 5;
@@ -23,7 +23,7 @@ const calculator = (a, b, sign) => {
     case '**':
       return a ** b;
     default:
-      throw new Error(`There is no such operator like '${sign}'!`);
+      throw new Error(`нету такого знака'${sign}'!`);
   }
 };
 

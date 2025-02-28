@@ -1,1 +1,1 @@
-console.log('\n\nСписок игр:\nparity-check(проверка на четность)\ncalculator(калькулятор)\n...\n...\n...')
+console.log('\n\nСписок игр:\nparity-check(проверка на четность)\ncalculator(калькулятор)\nnod(НОД:наибольший общий делитель)\n...\n...')
