@@ -20,5 +20,5 @@ export default (description, generateRound) => {
     console.log('верно!');
   }
 
-  console.log(`\n\nМолодец, ${Name}!`);
+  console.log(`\n\nПоздравляю, ${Name}!`);
 };

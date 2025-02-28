@@ -7,4 +7,8 @@ brain-games:
 make lint:
 	npx eslint .
 parity-check:
-	node bin/parity-check.js
+	node bin/brain-even.js
+calculator:
+	node bin/brain-calc.js
+games:
+	node src/gameslist.js
