@@ -2,11 +2,11 @@ import { RandomNumber, RandomIndex } from '../Num-math.js';
 import run from '../index.js';
 
 const description = 'Поиграем в калькулятор:)\n\n\nНайди значение выражения\n(если ответ не целый то округлить до 16 знаков после запятой)';
-const signs = ['+', '-', '*', '/', '%', '**'];
-const min = -50;
-const min2 = 1;
-const max = 50;
-const max2 = 5;
+const signs = ['+', '-', '*'];
+const min = 0;
+const min2 = 0;
+const max = 20;
+const max2 = 20;
 
 const calculator = (a, b, sign) => {
   switch (sign) {
@@ -16,12 +16,6 @@ const calculator = (a, b, sign) => {
       return a - b;
     case '*':
       return a * b;
-    case '/':
-      return a / b;
-    case '%':
-      return a % b;
-    case '**':
-      return a ** b;
     default:
       throw new Error(`нету такого знака'${sign}'!`);
   }
