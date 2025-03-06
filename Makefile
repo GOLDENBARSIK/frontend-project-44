@@ -14,5 +14,7 @@ calculator:
 	node bin/brain-calc.js
 nod:
 	node bin/brain-gcd.js
+progress:
+	node bin/brain-progression.js
 games:
 	node src/gameslist.js

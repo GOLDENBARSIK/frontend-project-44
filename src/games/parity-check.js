@@ -1,6 +1,6 @@
 import { RandomNumber } from '../Num-math.js';
 import run from '../index.js';
-
+console.log('\n\n\nparity-check(проверка на четность)')
 const description = '\n\n\nСыграем в проверку на четность)\nотвечай "чет" если число четное, а если нет то ответь "нечет".';
 const min = 0;
 const max = 100;

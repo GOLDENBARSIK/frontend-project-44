@@ -3,7 +3,7 @@ import readlineSync from 'readline-sync';
 const attemptsCount = 3;
 
 export default (description, generateRound) => {
-  console.log('\n\n\n\nИ снова приветствую в "Игры Разума!😉😉😉"\n');
+  console.log('\n\nИ снова приветствую в "Игры Разума!😉😉😉"\n');
   const Name = readlineSync.question('Напомни как тебя зовут??😅😅😅\n');
   console.log(`\n\n\nПриветики, ${Name}!:3\n`);
   console.log(description);

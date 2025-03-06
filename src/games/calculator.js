@@ -1,6 +1,6 @@
 import { RandomNumber, RandomIndex } from '../Num-math.js';
 import run from '../index.js';
-
+console.log('\n\n\ncalculator(калькулятор)')
 const description = 'Поиграем в калькулятор:)\n\n\nНайди значение выражения\n(если ответ не целый то округлить до 16 знаков после запятой)';
 const signs = ['+', '-', '*'];
 const min = 0;

@@ -1,6 +1,6 @@
 import { RandomNumber } from '../Num-math.js';
 import run from '../index.js';
-
+console.log('\n\n\nnod(НОД:наибольший общий делитель)')
 const description = 'Найди наибольший общий делитель :3.\n\n\n';
 const min = 0;
 const max = 10;
