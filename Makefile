@@ -16,5 +16,7 @@ nod:
 	node bin/brain-gcd.js
 progress:
 	node bin/brain-progression.js
+simple:
+	node bin/brain-prime.js
 games:
 	node src/gameslist.js
