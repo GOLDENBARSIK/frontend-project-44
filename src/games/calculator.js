@@ -5,8 +5,8 @@ const description = 'Поиграем в калькулятор:)\n\n\nНайд�
 const signs = ['+', '-', '*'];
 const min = 0;
 const min2 = 0;
-const max = 20;
-const max2 = 20;
+const max = 100;
+const max2 = 100;
 
 const calculator = (a, b, sign) => {
   switch (sign) {
